@@ -38,6 +38,12 @@ public class Main {
 		LocalDateTime future = now.plusDays(1095);
 		DayOfWeek future1 = future.getDayOfWeek();
 		System.out.println(future1);
+		
+// 		③三年後の今日は何曜日？（修正版）
+		LocalDateTime now  = LocalDateTime.now();
+		LocalDateTime future = now.plusYears(3);
+		DayOfWeek future1 = future.getDayOfWeek();
+		System.out.println(future1);
 
 
 // 		④if文を使って引数が0なら偽1なら真を表示しよう(ランダムも入れてみました
